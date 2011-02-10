@@ -1,0 +1,69 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf350
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";\
+\
+CREATE TABLE `Colours` (\
+  `ID` int(2) NOT NULL,\
+  `Colour` varchar(7) NOT NULL\
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;\
+\
+INSERT INTO `Colours` VALUES(1, '#008B00');\
+INSERT INTO `Colours` VALUES(2, '#66CD00');\
+INSERT INTO `Colours` VALUES(3, '#7FFF00');\
+INSERT INTO `Colours` VALUES(4, '#FFFF00');\
+INSERT INTO `Colours` VALUES(5, '#CDCD00');\
+INSERT INTO `Colours` VALUES(6, '#8B8B00');\
+INSERT INTO `Colours` VALUES(7, '#F4A460');\
+INSERT INTO `Colours` VALUES(8, '#FF6347');\
+INSERT INTO `Colours` VALUES(9, '#FF0000');\
+\
+CREATE TABLE `Inputs` (\
+  `ClickerID` varchar(5) NOT NULL,\
+  `QuestionNumber` int(2) NOT NULL,\
+  `Answer` varchar(1) NOT NULL\
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;\
+\
+INSERT INTO `Inputs` VALUES('D27D6', 1, '7');\
+INSERT INTO `Inputs` VALUES('CFBD2', 1, '5');\
+\
+CREATE TABLE `Questions` (\
+  `Number` int(2) NOT NULL,\
+  `Answer` varchar(1) NOT NULL\
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;\
+\
+INSERT INTO `Questions` VALUES(1, '2');\
+INSERT INTO `Questions` VALUES(2, '1');\
+INSERT INTO `Questions` VALUES(3, '4');\
+INSERT INTO `Questions` VALUES(4, '4');\
+INSERT INTO `Questions` VALUES(5, '3');\
+\
+CREATE TABLE `Students` (\
+  `ClickerID` varchar(5) NOT NULL,\
+  `StudentID` int(8) NOT NULL,\
+  `TableNumber` int(2) NOT NULL\
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;\
+\
+INSERT INTO `Students` VALUES('CFBD2', 12345678, 4);\
+INSERT INTO `Students` VALUES('D27D6', 87654321, 9);\
+\
+CREATE TABLE `Tables` (\
+  `Number` int(2) NOT NULL,\
+  `Colour` varchar(7) NOT NULL\
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;\
+\
+INSERT INTO `Tables` VALUES(1, '#008B00');\
+INSERT INTO `Tables` VALUES(2, '#008B00');\
+INSERT INTO `Tables` VALUES(3, '#008B00');\
+INSERT INTO `Tables` VALUES(4, '#008B00');\
+INSERT INTO `Tables` VALUES(5, '#008B00');\
+INSERT INTO `Tables` VALUES(6, '#008B00');\
+INSERT INTO `Tables` VALUES(7, '#008B00');\
+INSERT INTO `Tables` VALUES(8, '#008B00');\
+INSERT INTO `Tables` VALUES(9, '#008B00');\
+INSERT INTO `Tables` VALUES(10, '#008B00');\
+INSERT INTO `Tables` VALUES(11, '#008B00');\
+}

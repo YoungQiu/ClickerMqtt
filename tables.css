@@ -1,0 +1,120 @@
+#table1 { /* Top left */ 
+    position: absolute;
+    top: 100px;
+    left: 75px;
+    width: 60px;
+    height: 60px;
+    background-color: #008B00;
+    filter: alpha(opacity = 40);
+    opacity: .5;
+}
+
+#table2 { /* Above left camera */
+    position: absolute;
+    top: 110px;
+    left: 240px;
+    width: 72px;
+    height: 67px;
+    background-color: #008B00;
+    filter: alpha(opacity = 40);
+    opacity: .5;
+}
+
+#table3 { /* mid left */
+    position: absolute;
+    top: 245px;
+    left: 75px;
+    width: 72px;
+    height: 67px;
+    background-color: #008B00;
+    filter: alpha(opacity = 40);
+    opacity: .5;
+}
+
+#table4 { /* Bottom left */
+    position: absolute;
+    top: 450px;
+    left: 105px;
+    width: 72px;
+    height: 62px;
+    background-color: #008B00;
+    filter: alpha(opacity = 40);
+    opacity: .5;
+}
+
+#table5 { /* next to table 4 */
+    position: absolute;
+    top: 460px;
+    left: 250px;
+    width: 80px;
+    height: 80px;
+    background-color: #008B00;
+    filter: alpha(opacity = 40);
+    opacity: .5;
+}
+
+#table6 { /* Above class light */
+    position: absolute;
+    top: 155px;
+    left: 420px;
+    width: 80px;
+    height: 80px;
+    background-color: #008B00;
+    filter: alpha(opacity = 40);
+    opacity: .5;
+}
+
+#table7 { /* Below locker icon */
+    position: absolute;
+    top: 460px;
+    left: 400px;
+    width: 62px;
+    height: 65px;
+    background-color: #008B00;
+    filter: alpha(opacity = 40);
+    opacity: .5;
+}
+
+#table8 { /* Top right */
+    position: absolute;
+    top: 200px;
+    left: 620px;
+    width: 70px;
+    height: 70px;
+    background-color: #008B00;
+    filter: alpha(opacity = 40);
+    opacity: .5;
+}
+
+#table9 { /* Below "Lock" */
+    position: absolute;
+    top: 450px;
+    left: 540px;
+    width: 90px;
+    height: 80px;
+    background-color: #008B00;
+    filter: alpha(opacity = 40);
+    opacity: .5;
+}
+
+#table10 { /* Next to table 9 */
+    position: absolute;
+    top: 440px;
+    left: 692px;
+    width: 70px;
+    height: 70px;
+    background-color: #008B00;
+    filter: alpha(opacity = 40);
+    opacity: .5;
+}
+
+#table11 { /* Most right bottom */
+    position: absolute;
+    top: 400px;
+    left: 823px;
+    width: 68px;
+    height: 68px;
+    background-color: #008B00;
+    filter: alpha(opacity = 40);
+    opacity: .5;
+}
