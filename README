@@ -1,2 +1,3 @@
-You require MAMP to run the web page from main.php.
-Otherwise please change the function mysql_connect parameters for your os.
+You require MAMP (on OSX) to run the web page from main.php.
+Otherwise please change the function mysql_connect() parameters for your os.
+Database can be created through the commands in setupDb.
