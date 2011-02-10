@@ -1,0 +1,2 @@
+You require MAMP to run the web page from main.php.
+Otherwise please change the function mysql_connect parameters for your os.
